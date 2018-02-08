@@ -290,7 +290,7 @@ input[type=submit] {
 }
 
 /* for a width of 640px */
-@media (max-width: 640px) {
+@media (max-width: 640px) and (orientation: landscape) {
   .container {
     max-width: 640px;
 
