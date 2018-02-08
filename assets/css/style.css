@@ -346,7 +346,61 @@ input[type=submit] {
 }
 
 
-/* test comment to re-commit*/
+/* trying to get this to work on my own phone.*/
+/* for a width of 700px */
+@media (max-width: 700px) {
+  .container {
+    max-width: 700px;
+  }
 
+  .main-section {
+    max-width: 660px;
+    width:100%;
+    margin-left: 20px;
+  }
+
+  #main-container {
+    padding-top: 10px;
+  }
+
+  .sidebar {
+    max-width: 660px;
+    width:100%;
+    margin-left: 20px;
+
+  }
+
+  #masthead {
+    position: static;
+  }
+
+
+  nav {
+    
+    display: block;
+    width: 100%;
+    margin-left: 85px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  nav a {
+    margin-left: 35px;
+    padding-left: 35px;
+
+  }
+
+  #logo {
+    float: none;
+    display: block;
+    width: 100%;
+
+  }
+
+  .work {
+    width: 538px;
+    height: 412px;
+  }
+}
 
 
