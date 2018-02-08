@@ -293,7 +293,6 @@ input[type=submit] {
 @media (max-width: 640px) {
   .container {
     max-width: 640px;
-
   }
 
   .main-section {
@@ -344,10 +343,10 @@ input[type=submit] {
     width: 538px;
     height: 412px;
   }
-
-
 }
 
+
+/* test comment to re-commit*/
 
 
 
